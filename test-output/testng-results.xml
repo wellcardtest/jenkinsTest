@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13770" started-at="2016-06-10T21:24:25Z" finished-at="2016-06-10T21:24:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13770" started-at="2016-06-10T21:24:25Z" finished-at="2016-06-10T21:24:38Z">
+      <class name="br.gov.mds.desempenho.IntegracaoJenkins">
+        <test-method status="PASS" signature="setup()[pri:0, instance:br.gov.mds.desempenho.IntegracaoJenkins@2b98378d]" name="setup" is-config="true" duration-ms="5960" started-at="2016-06-10T18:24:25Z" finished-at="2016-06-10T18:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:br.gov.mds.regressao.IntegracaoJenkins@475530b9]" name="setup" is-config="true" duration-ms="4126" started-at="2016-06-10T18:24:31Z" finished-at="2016-06-10T18:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testeDesempenhoTitulo()[pri:0, instance:br.gov.mds.desempenho.IntegracaoJenkins@2b98378d]" name="testeDesempenhoTitulo" duration-ms="1538" started-at="2016-06-10T18:24:35Z" finished-at="2016-06-10T18:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testeDesempenhoTitulo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:br.gov.mds.desempenho.IntegracaoJenkins@2b98378d]" name="tearDown" is-config="true" duration-ms="335" started-at="2016-06-10T18:24:38Z" finished-at="2016-06-10T18:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:br.gov.mds.regressao.IntegracaoJenkins@475530b9]" name="tearDown" is-config="true" duration-ms="242" started-at="2016-06-10T18:24:38Z" finished-at="2016-06-10T18:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- br.gov.mds.desempenho.IntegracaoJenkins -->
+      <class name="br.gov.mds.regressao.IntegracaoJenkins">
+        <test-method status="PASS" signature="testeTitulo()[pri:0, instance:br.gov.mds.regressao.IntegracaoJenkins@475530b9]" name="testeTitulo" duration-ms="1556" started-at="2016-06-10T18:24:36Z" finished-at="2016-06-10T18:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testeTitulo -->
+      </class> <!-- br.gov.mds.regressao.IntegracaoJenkins -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

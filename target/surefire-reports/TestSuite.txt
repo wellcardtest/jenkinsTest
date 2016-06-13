@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 47.447 sec <<< FAILURE! - in TestSuite
+setup(br.gov.mds.regressao.IntegracaoJenkins)  Time elapsed: 46.968 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Unable to bind to locking port 7054 within 45000 ms
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'mds040614', ip: '10.68.49.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: FirefoxDriver
+	at br.gov.mds.regressao.IntegracaoJenkins.setup(IntegracaoJenkins.java:16)
+
